@@ -1,0 +1,1 @@
+../fhem/FHEM/70_Jabber.pm
