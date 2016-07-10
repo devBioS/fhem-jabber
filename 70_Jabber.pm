@@ -1,4 +1,5 @@
 ##############################################################################
+# $Id: 70_Jabber.pm 11779 2016-07-10 18:38:04Z bios01 $
 #
 #     70_Jabber.pm
 #     An FHEM Perl module for connecting to an Jabber XMPP Server and 
