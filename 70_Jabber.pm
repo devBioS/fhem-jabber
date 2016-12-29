@@ -1,5 +1,5 @@
 ##############################################################################
-# $Id: 70_Jabber.pm 11779 2016-07-10 18:38:04Z bios01 $
+# $Id: 70_Jabber.pm 12904 2016-12-29 12:44:32Z BioS $
 #
 #     70_Jabber.pm
 #     An FHEM Perl module for connecting to an Jabber XMPP Server and 
@@ -26,7 +26,7 @@
 # Version: 1.7 - 2016-12-29
 #
 # Changelog:
-# v1.7 2016-12-29 Added possibility to change componentname via attr JabberDomain
+# v1.7 2016-12-29 Added possibility to change componentname via attr JabberDomain (thx Turbokid)
 # v1.6 2016-07-10 Fix log message if otr message is empty (thx spikeh1)
 # v1.5 2015-09-17 Added OTR (Off the Record) end to end encryption
 #                 Added MUC (Multi-User-Channel) joining and handling
@@ -964,6 +964,9 @@ sub Jabber_OTR_disconnected {
 
 
 =pod
+=item device
+=item summary connect FHEM to the Jabber Network, send and receiving messages
+=item summary_DE verbindet FHEM and Jabber Netz, kann Nachrichten senden und empfangen
 =begin html
 
 <a name="Jabber"></a>
